@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav{
+    text-align: center;
+    font-weight: 600;
+    color:brown;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.product-container{
+    text-align: center;
+    margin:1rem;
+}
+
+  
+  .deleteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #e85a4f;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .deleteButton:hover {
+    color: #c74339;
+  }
+  h1{
+    margin: 1rem;
+  }
+.card {
+    display: relative;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+  }
+  
+  .details {
+    padding: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e85a4f;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-overflow:clip;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
