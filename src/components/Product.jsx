@@ -6,7 +6,7 @@ const Product = ({ id, name, price, imageUrl, description, onDelete, onUpdate })
   const [showUpdateForm, setShowUpdateForm] = useState(false);
 
   const handleUpdateClick = () => {
-    setShowUpdateForm(true);
+    setShowUpdateForm(!showUpdateForm);
   }
 
   return (

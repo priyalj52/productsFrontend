@@ -5,7 +5,7 @@ const UpdateProduct = ({ id, name, price, description, imageUrl, }) => {
   const [productPrice, setProductPrice] = useState(price);
   const [productDescription, setProductDescription] = useState(description);
   const [productImageUrl, setProductImageUrl] = useState(imageUrl);
-  console.log(id)
+  
 
 
 const handleUpdate = async (id) => {
