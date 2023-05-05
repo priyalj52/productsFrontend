@@ -18,18 +18,20 @@ const Products = () => {
     });
     setProducts(products.filter(product => product._id !== id));
   };
-
+ 
+ 
   return (
     <div className='container'>
      
       {products.map(product => (
         <Product
-          key={product._id}
+          id={product._id}
           name={product.name}
           price={product.price}
-          imageUrl={`http://localhost:8080/${product.imageUrl}`|| defaultImage}
+          imageUrl={`${product.imageUrl}`|| defaultImage}
           description={product.description}
           onDelete={() => handleDelete(product._id)}
+          // onUpdate={() => handleUpdate(product._id)}
         />
       ))}
     </div>
