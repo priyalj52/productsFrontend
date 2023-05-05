@@ -1,3 +1,25 @@
+# CRUD OPERATIONS ON PRODUCTS!
+
+<p>Created using MERN stack</p>
+<p>User can add new product ,delete and update the existing product as well.</p>
+<h1>SCREENSHOTS</h1>
+<h2> HOMEPAGE</h2>
+<img src="https://user-images.githubusercontent.com/94099575/236448200-44dc4c15-3936-49dd-b8d3-3a3ab8bb13d0.png"/>
+<h2> ADD</h2>
+<p> user can add by clicking on add button,it will open a form and after submitting user can see the product on their screen.</p>
+<img src="https://user-images.githubusercontent.com/94099575/236449918-44275932-9fef-48e9-b30e-5a992e86e1e9.png"/>
+
+<h2> DELETE</h2>
+<p> User can delete by clicking on CROSS button on every product.</p>
+<img src="https://user-images.githubusercontent.com/94099575/236450570-c7e0f170-20d4-4c74-b933-7e1762669d07.png"/>
+<h2>UPDATE</h2>
+
+<p> User can update details by clicking on edit button on top left of product card,it will open a edit form on the bottom of the card,after submitting user can see updated product on screen.</p>
+<img src="https://user-images.githubusercontent.com/94099575/236450344-f6380c19-3ea7-4935-9269-306a5b2960b7.png"/>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
